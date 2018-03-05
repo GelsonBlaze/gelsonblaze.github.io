@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+  	<style type="text/css">
+  		.maindiv{
+  			margin-top: auto;
+  			text-align: center;
+  		}
+  		.desc {
+    		margin-left: 200px;
+    		margin-right: 200px;
+		}
+		ul {
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+
+		li {
+    		display: inline;
+    		font-size: 40px
+		}
+		/* The navigation bar */
+		.navbar {
+    		overflow: hidden;
+    		background-color: #333;
+    		position: fixed; /* Set the navbar to fixed position */
+    		bottom: 0; /* Position the navbar at the top of the page */
+    		width: 100%; /* Full width */
+		}
+
+		/* Links inside the navbar */
+		.navbar a {
+    		display: inline-block;
+    		color: #f2f2f2;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+
+		/* Change background on mouse-over */
+		.navbar a:hover {
+		    background: #ddd;
+		    color: black;
+		}
+		
+		.navbar ul {
+		   list-style: none;
+		   text-align: center;
+		}
+		
+		.navbar ul li {
+		   display: inline-block;
+		   font-size: 30px;
+		}
+		/* Main content */
+		.main {
+		    margin-top: 30px; /* Add a top margin to avoid content overlay */
+		}
+
+		* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+  	</style>
+  </head>
+  <body>
+  	<div class="navbar">
+  			<ul>
+  				<li><a href="#topdiv">Top</a></li>
+  				<li><a href="#introduction">Introduction</a></li>
+  				<li><a href="#education">Education</a></li>
+  				<li><a href="#workxp">Work Experience</a></li>
+  				<li><a href="#projects">Projects</a></li>
+  				<li><a href="#hobbies">Hobbies</a></li>
+  			</ul>
+  
+	</div>
+
+  	<div id="topdiv" class="maindiv">
+  		<br>
+  		<center><img width="40%" height="40%" src="/Users/afonsosilva/Desktop/Portfólio/fotoperfil.jpg"></center>
+  		<center><h1>Afonso Silva</h1></center> 
+  		<center><h2>IT Developer</h2></center>
+  	</div> 
+  	
+  		<center>
+  			<div id="introduction" class="desc">
+  				<br>
+  				<h1>Introduction</h1>
+  				<p>After finishing a 3 year course in Management and Programming of Computer Systems I am now studying mobile development and looking to invest in gaming in my developer career.
+  				</p>
+				<p>My experience in the area is a 5 month Internship at Reditus SA in web development where I got to work with new tools such as Angular.
+				</p>
+				<p>My most valuable skills would be C# development and Image and UI editing through tools such as Adobe Illustrator and Adobe Photoshop.
+				</p>
+				<p>I was also able to greatly improve my communication skills in a 3 month part-time job at a retail store where I worked closely with clients and gave them advice on computer software and hardware purchases.
+				</p>
+			</div>
+		</center>
+
+		<center>
+			<div id="education" class="desc">
+				<br>
+				<h1>Education</h1>
+				<h3>2016 - Present</h3>
+				<p>Mobile Development
+  				</p>
+  				<a href="http://www.istec.pt/" target="_blank">ISTEC - Instituto Superior</a>
+  				<br>
+				<h3>2013 - 2016</h3>
+				<p>Management and Programming of Computer Systems
+  				</p>
+  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
+			</div>
+		</center>
+
+		<center>
+			<div id="workxp" class="desc">
+				<br>
+				<h1>Work Experience</h1>
+				<h3>15/10/2016 - 15/01/2017</h3>
+				<p>Store Operator
+  				</p>
+  				<a href="https://www.colombo.pt/en/store/worten-store-1/">Worten Colombo</a>
+  				<br>
+  				<h3>21/03/2016 - 08/07/2016</h3>
+				<p>Curricular Internship in Web Development
+  				</p>
+  				<a href="http://www.reditus.pt/en" target="_blank">Reditus</a>
+			</div>
+		</center>
+
+		<center>
+			<div id="projects" class="desc">
+				<br>
+				<h1>Projects</h1>
+				<h3>2016</h3>
+				<p>"Click" Solidarity Platform
+  				</p>
+  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
+  				<br>
+  				<h3>2015</h3>
+				<p>"Counterplay" desktop app for inventory management
+  				</p>
+  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
+			</div>
+		</center>
+
+		<center>
+			<div id="hobbies" class="desc">
+				<br>
+				<h1>Hobbies</h1>
+				<h3>Cooking</h3>
+				<center><img width="50%" height="50%" src="/Users/afonsosilva/Desktop/Portfólio/cooking1.jpg"></center>
+				<br>
+				<h3>Video Games</h3>
+				<center><img width="50%" height="50%" src="/Users/afonsosilva/Desktop/Portfólio/game1.jpg"></center>
+				<center><img width="50%" height="50%" src="/Users/afonsosilva/Desktop/Portfólio/game2.png"></center>
+				<br>
+				<h3>Socializing</h3>
+				<!-- Slideshow container -->
+				<div class="slideshow-container">
+				
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+				    <div class="numbertext">1 / 3</div>
+				    <img width="300px" height="300px" src="/Users/afonsosilva/Desktop/Portfólio/social3.jpg">
+				    <div class="text">Drinking Wine</div>
+				  </div>
+				
+				  <div class="mySlides fade">
+				    <div class="numbertext">2 / 3</div>
+				    <img width="450px" height="300px" src="/Users/afonsosilva/Desktop/Portfólio/social2.jpg">
+				    <div class="text">University Circle</div>
+				  </div>
+				
+				  <div class="mySlides fade">
+				    <div class="numbertext">3 / 3</div>
+				    <img width="500px" height="300px" src="/Users/afonsosilva/Desktop/Portfólio/social1.jpg">
+				    <div class="text">MTG Tournament</div>
+				  </div>
+				
+				
+				</div>
+				
+				</div>
+			</div>
+		</center>
+
+  		<center>
+  			<div id="endnote" class="desc">
+  				<br>
+  				<p>I am always available for new challenges and learning experiences.
+				</p>
+				<br>
+				<p>For more info send an email to: afonsomfdsilva@gmail.com
+				</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+  			</div>	
+  		</center>
+
+  		<script>
+  			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < slides.length; i++) {
+			        slides[i].style.display = "none"; 
+			    }
+			    slideIndex++;
+			    if (slideIndex > slides.length) {slideIndex = 1} 
+			    slides[slideIndex-1].style.display = "block"; 
+			    setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+			
+		</script>
+  </body>
+
+</html>
