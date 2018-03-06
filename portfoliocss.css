@@ -10,18 +10,35 @@ li {
 }
 
 .maindiv{
-  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 .desc {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.descintro {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
 }
 
-.content {
-  
+.descintro h1 {
+  text-align: center;
+}
+
+.introduction {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.footer {
+  padding-bottom: 200px;
 }
 
 /* The navigation bar */
