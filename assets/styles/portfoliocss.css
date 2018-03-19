@@ -74,6 +74,38 @@ body {
   height: 65%;
   padding-top: 80px;
 }
+.cooking-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 80px;
+}
+.gaming-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 80px;
+}
+.socializing-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 80px;
+}
+.exploring-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 80px;
+}
 
 /* Mobile Nav */
 .mobile-menu {
@@ -227,7 +259,7 @@ body {
 }
 
 
-/* Skills Experience */
+/* Skills */
 .skills-section {
   padding-top: 195px;
   padding-left: 100px;
@@ -258,7 +290,7 @@ body {
 }
 
 
-/* Projects Experience */
+/* Projects */
 .projects-section {
   padding-top: 195px;
   padding-left: 100px;
@@ -278,7 +310,30 @@ body {
   line-height: 55px;
 }
 
-
+/* Hobbies */
+.hobbies-section {
+  padding-top: 195px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #0665a0;
+  padding-bottom: 380px;
+  text-align: center;
+}
+.hobbies-section h1 {
+  font-size: 8.750em;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.hobbies-section h2 {
+  font-size: 80px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.hobbies-section p {
+  padding-top: 30px;
+  font-size: 3.125em;
+  line-height: 55px;
+}
 
 
 
