@@ -3,149 +3,188 @@
 <html>
 
   <head>
-  	<link rel="stylesheet" type="text/css" href="./portfoliocss.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/portfoliocss.css">
+
   </head>
+
   <body>
-  	<div class="navbar">
-  			<ul>
-  				<li><a href="#topdiv">Top</a></li>
-  				<li><a href="#introduction">Introduction</a></li>
-  				<li><a href="#education">Education</a></li>
-  				<li><a href="#workxp">Work Experience</a></li>
-  				<li><a href="#projects">Projects</a></li>
-  				<li><a href="#hobbies">Hobbies</a></li>
-  			</ul>
-  
-	</div>
 
-  	<div id="topdiv" class="maindiv">
-  		<br>
-  		<img width="40%" height="40%" src="./fotoperfil.jpg">
-  		<h1>Afonso Silva</h1>
-  		<h2>IT Developer</h2>
-  	</div> 
-  	
-  		
-  			<div id="introduction" class="descintro">
-  				<h1>Introduction</h1>
-  				<div class="introduction">					
-  					<p>After finishing a 3 year course in Management and Programming of Computer Systems I am now studying mobile development and looking to 	invest in gaming in my developer career.
-  					</p>
-					<p>My experience in the area is a 5 month Internship at Reditus SA in web development where I got to work with new tools such as Angular.
-					</p>
-					<p>My most valuable skills would be C# development and Image and UI editing through tools such as Adobe Illustrator and Adobe Photoshop.
-					</p>
-					<p>I was also able to greatly improve my communication skills in a 3 month part-time job at a retail store where I worked closely with 	clients and gave them advice on computer software and hardware purchases.
-					</p>
-				</div>
-			</div>
-		
-			<div id="education" class="desc">
-				
-				<h1>Education</h1>
-				<h2>2016 - Present</h2>
-				<p>Mobile Development
-  				</p>
-  				<a href="http://www.istec.pt/" target="_blank">ISTEC - Instituto Superior</a>
-  				<br>
-				<h2>2013 - 2016</h2>
-				<p>Management and Programming of Computer Systems
-  				</p>
-  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
-			</div>
-		
-			<div id="workxp" class="desc">
-				
-				<h1>Work Experience</h1>
-				<h2>15/10/2016 - 15/01/2017</h2>
-				<p>Store Operator
-  				</p>
-  				<a href="https://www.colombo.pt/en/store/worten-store-1/">Worten Colombo</a>
-  				<br>
-  				<h2>21/03/2016 - 08/07/2016</h2>
-				<p>Curricular Internship in Web Development
-  				</p>
-  				<a href="http://www.reditus.pt/en" target="_blank">Reditus</a>
-			</div>
-		
-			<div id="projects" class="desc">
-				
-				<h1>Projects</h1>
-				<h2>2016</h2>
-				<p>"Click" Solidarity Platform
-  				</p>
-  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
-  				<br>
-  				<h2>2015</h2>
-				<p>"Counterplay" desktop app for inventory management
-  				</p>
-  				<a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank">Gustave Eiffel</a>
-			</div>
-		
-			<div id="hobbies" class="desc">
-				
-				<h1>Hobbies</h1>
-				<h2>Cooking</h2>
-				<img width="50%" height="50%" src="./cooking1.jpg">
-				<br>
-				<h2>Video Games</h2>
-				<img width="50%" height="50%" src="./game1.jpg">
-				<img width="50%" height="50%" src="./game2.png">
-				<br>
-				<h2>Socializing</h2>
-				<!-- Slideshow container -->
-				<div class="slideshow-container">
-				
-				  <!-- Full-width images with number and caption text -->
-				  <div class="mySlides fade">
-				    <div class="numbertext">1 / 3</div>
-				    <img width="300px" height="300px" src="./social3.jpg">
-				    <div class="text">Drinking Wine</div>
-				  </div>
-				
-				  <div class="mySlides fade">
-				    <div class="numbertext">2 / 3</div>
-				    <img width="450px" height="300px" src="./social2.jpg">
-				    <div class="text">University Circle</div>
-				  </div>
-				
-				  <div class="mySlides fade">
-				    <div class="numbertext">3 / 3</div>
-				    <img width="500px" height="300px" src="./social1.jpg">
-				    <div class="text">MTG Tournament</div>
-				  </div>
-				
-				</div>
-				
-				</div>
-			</div>
-  		
-  			<div id="endnote" class="desc">
-  				
-  				<p>I am always available for new challenges and learning experiences.
-				</p>
-				<br>
-				<p>For more info send an email to: afonsomfdsilva@gmail.com
-				</p>
-  			</div>	
+    <div class="wrapper">
+      
+      <div class="mobile-menu">
+        <img onclick="myFunction()" class="mobile-menu-icon" src="assets/images/mobile-menu-icon-bluegrey.svg">
+        <div id="mobile-dropdown-menu" class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#intro-section">Introduction</a>
+          <a href="#about-me-section">About me</a>
+          <a href="#education-section">Education</a>
+          <a href="#work-experience-section">Work Experience</a>
+          <a href="#skills-section">Skills</a>
+          <a href="#projects-section">Projects</a>
+          <a href="#hobbies-section">Hobbies</a>s
+          <a href="#contacts-section">Contacts</a>
+        </div>
+      </div>
 
-  		<script>
-  			var slideIndex = 0;
-			showSlides();
+      <section id="home-section" class="home-section">
 
-			function showSlides() {
-			    var i;
-			    var slides = document.getElementsByClassName("mySlides");
-			    for (i = 0; i < slides.length; i++) {
-			        slides[i].style.display = "none"; 
-			    }
-			    slideIndex++;
-			    if (slideIndex > slides.length) {slideIndex = 1} 
-			    slides[slideIndex-1].style.display = "block"; 
-			    setTimeout(showSlides, 2000); // Change image every 2 seconds
-			}
-			
-		</script>
+        <img src="assets/images/fotoperfil.jpg" class="profile-img">
+        <h1>Afonso Silva</h1>
+        <h2>IT Developer</h2>
+        
+      </section>
+
+      <section id="intro-section" class="intro-section">
+
+        <h1>Introduction</h1>
+
+        <p>After finishing a 3 year course in Management and Programming of Computer Systems I am now studying mobile development and looking to invest in gaming in my developer career.</p>
+        <p>My experience in the area is a 5 month Internship at Reditus SA in web development where I got to work with new tools such as Angular.</p>
+        <p>My most valuable skills would be C# development and Image and UI editing through tools such as Adobe Illustrator and Adobe Photoshop.</p>
+        <p>I was also able to greatly improve my communication skills in a 3 month part-time job at a retail store where I worked closely with clients and gave them advice on computer software and hardware purchases.</p>
+
+      </section>
+
+      <section id="about-me-section" class="about-me-section">
+        
+        <h1>About Me</h1>
+
+        <p>I was born on February 7th 1996 in Angola and around when I turned 4 I moved with my family to Portugal where I grew up and am still living.</p>
+        <p>When I was little I really liked playing with legos and wanted to study architecture or civil engineering like my uncle but that changed as soon as I met a computer for the first time. I was amazed at all the possibilities it brought with it and soon changed what I aspired to do in the future.</p>
+        <p>I am mostly a very calm and passive individual but can get out of my shell if I am excited about something or when discussing something of my interest.</p>
+
+        <h2>Languages</h2>
+
+        <p>- Portuguese (Mother Tongue)</p>
+        <p>- English</p>
+
+        <h2>Strenghts</h2>
+
+        <p>I am very passionate about what I really like and having 2 younger brothers made me a more responsible person since I had to look out for them.</p>
+
+        <h2>Weaknesses</h2>
+
+        <p>Like most human beings I have a lot of flaws and I have been able to improve in some areas but the one that I am the least proud of would be that I am a really slow starter.</p>
+
+        <img class="weakness-img" src="assets/images/weakness.jpg">
+
+      </section>
+
+      <section id="education-section" class="education-section" >
+        
+        <h1>Education</h1>
+
+        <h2>2016 - Present</h2>
+        <p>Mobile Development</p>
+        <a href="http://www.istec.pt/" target="_blank"><img class="istec-logo" src="assets/images/istec-logo.png"></a>
+
+        <h2>2013 - 2016</h2>
+        <p>Management and Programming</p>
+        <p>of Computer Systems</p>
+        <a href="http://gustaveeiffel.pt/wordpress/polo-da-amadora-centro/" target="_blank"><img class="gustave-logo" src="assets/images/gustave-logo.png"></a>
+
+      </section>
+
+      <section id="work-experience-section" class="work-experience-section" >
+        
+        <h1>Work Experience</h1>
+
+        <h2>March 5th 2018 - Present</h2>
+        <p>Internship in Web</p>
+        <p>and Mobile Development</p>
+        <a href="http://minuscode.com/" target="_blank"><img class="minuscode-logo" src="assets/images/minuscode-logo.jpg"></a>
+
+        <h2>November - December 2017
+        October - December 2016</h2>
+        <p>Part-time as store operator</p>
+        <p>for the informatic division</p>
+        <p>at Worten Colombo</p>
+        <a href="https://www.worten.pt/" target="_blank"><img class="worten-logo" src="assets/images/worten-logo.jpg"></a>
+
+      </section>
+
+      <section id="skills-section" class="skills-section">
+        
+        <h1>Skills</h1>
+
+        <p>Even though some are fresher than others</p>
+        <p>I was always taught to...</p>
+        <img class="iao" src="assets/images/iao.jpg">
+
+        <h2>Mobile</h2>
+        <p>Android</p>
+        <p>Swift</p>
+        
+        <h2>Desktop</h2>
+        <p>C#</p>
+        <p>C++</p>
+
+        <h2>Web</h2>
+        <p>HTML5</p>
+        <p>PHP</p>
+        <p>CSS3</p>
+        <p>Javascript</p>
+
+        <h2>Server</h2>  
+        <p>SQL</p>
+        <p>MySQL</p>
+        <p>Firebase</p>
+
+        <h2>UI/UX</h2>
+        <p>Illustrator</p>
+        <p>Photoshop</p>
+        <p>Xd</p>
+
+
+      </section>
+
+      <section id="projects-section" class="projects-section">
+        
+        <h1>Projects</h1>
+        <p>At the moment I don't have much to show but the little I can share is on my git which you can tap into below.</p>
+        <a href="https://github.com/GelsonBlaze" target="_blank"><img class="github-logo" src="assets/images/github-logo.png"></a>
+
+      </section>
+
+      <section id="hobbies-section" class="hobbies-section">
+        
+        <h1>Hobbies</h1>
+
+        <h2>Socialize</h2>
+        <img class="socialize-logo" src="assets/images/socialize-icon.svg">
+
+        <h2>Cooking</h2>
+        <img class="cooking-logo" src="assets/images/cooking-icon.svg">
+
+        <h2>Gaming</h2>
+        <img class="gaming-logo" src="assets/images/gaming-icon.svg">
+
+        <h2>Art</h2>
+        <img class="art-logo" src="assets/images/art-icon.svg">
+
+        <h2>Exploring</h2>
+        <img class="exploring-logo" src="assets/images/exploring-icon.svg">
+
+      </section>
+
+      <section id="contacts-section" class="contacts-section">
+
+        <h1>Contacts</h1>
+
+        <p>I am always available for new challenges and learning experiences.</p>
+        <p>You can always contact me by sending an email to afonsomfdsilva@gmail.com</p>
+
+      </section>
+
+    </div>
+
+    <script src="assets/scripts/portfoliojs.js"></script>
+
   </body>
 
 </html>
