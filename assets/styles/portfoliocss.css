@@ -133,9 +133,10 @@ body {
     position: absolute;
     background-color: rgba(128,128,128, 0.95);
     width: 70%;
-    height: 830%;
-    overflow: auto;
+    height: 900px;
+    overflow-y: scroll;
     z-index: 1;
+    padding-bottom: 500px;
 }
 
 .dropdown-content a {
